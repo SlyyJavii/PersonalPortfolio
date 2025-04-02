@@ -1,0 +1,163 @@
+* { /* Universal selector */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Margin goes here */
+    /* Color goes here */
+}
+
+/* ---------------------------------------------Container + Header------------------------------------------------------------------ */
+
+
+
+
+
+/* ----------------------------------------Skills Section ----------------------------------------------------------------------- */
+
+.skills-section {
+    background-color: #333; /* Dark gray color */
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+}
+
+/* Skill-section hover goes here */
+
+.skills-card {
+ /* Skill-card styling goes here!*/
+}
+    
+.skills-title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+.skills-card:hover {
+    /* Skill-card hover goes here!*/
+}
+
+/* --------------------------------------------Projects------------------------------------------------------------------- */
+
+.projects-section h2 {
+    
+}
+
+/* Carousel styling */
+
+.projects {
+    
+}
+
+.project-card {
+   
+}
+
+.project-title {
+    
+}
+
+.project-text {
+    
+}
+
+.project-link {
+    /* Add content + text decoration */
+}
+
+.project-link:hover {
+    
+}
+
+.project-image {
+
+}
+
+/* back and next id selector */
+
+
+/* ---------------------------------------------------Experiences------------------------------------------------------------ */
+
+.experiences {
+    background-color: #333; /* Dark gray color */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* experience title */
+    
+.experience {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for highlight effect */
+}
+
+/* experience hover */
+
+/* experience h3 */
+
+/* experience header */
+
+/* experience p */
+
+/* experience hover + hidden text */
+
+/* experience hover + ellipsis */
+
+    
+.hidden-text {
+    display: none;
+}
+
+.ellipsis {
+    display: inline;
+    color: black;
+}
+
+/* --------------------------------------------------------Info------------------------------------------------------- */
+
+.info-section-container {
+   
+}
+
+.info-section-container h3 {
+   
+}
+
+.info-section-wrapper {
+    
+}
+
+.info-wrapper {
+    
+}
+
+.question {
+    
+}
+
+.question:hover {
+    
+}
+
+.question h4, .answer p {
+
+}
+
+/* answer class goes here! */
+
+/* open class goes here! */
+
+/* -------------------------------------------------------Footer-------------------------------------------------------- */
+
+/* footer */
+
+/* footer content */
+
+/* footer content a tags */
+
+/* footer content hover */
+
+    
+/* You're Done With CSS! */
