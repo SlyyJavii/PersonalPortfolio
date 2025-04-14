@@ -1,11 +1,51 @@
 * { /* Universal selector */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* Margin goes here */
-    /* Color goes here */
+    color: white;
 }
 
 /* ---------------------------------------------Container + Header------------------------------------------------------------------ */
 
+.container{
+    background-color: #333;
+    
+}
+
+.header{
+    background-color: white;
+    height: 95vh;
+}
+
+.header-text-section{
+    
+}
+
+/* use coolers website to pick colors*/
+.header-text-section h1{
+    color: #ff8c00;
+    font-size: 3rem;
+
+}
+
+.header-text-section h2{
+    color: #ff8c00;
+}
+
+.header-text-section p{
+    color: black;
+    font-size: 1rem;
+}
+
+.header-image-section{
+
+}
+
+.header-image{
+    height: 500px;
+    width: auto;
+
+    max-width: 100%;
+}
 
 
 
