@@ -1,6 +1,6 @@
 * { /* Universal selector */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* Margin goes here */
+    margin: 0;
     color: white;
 }
 
@@ -8,27 +8,39 @@
 
 .container{
     background-color: #333;
-    
+    border-top: 10px solid #ff8c00;
 }
 
 .header{
+    margin: 0 auto 20px;
     background-color: white;
     height: 95vh;
+    border-bottom: 10px solid black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .header-text-section{
-    
+    padding: 30px;
+    box-shadow: -10px 10px black;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 50%;
 }
 
 /* use coolers website to pick colors*/
 .header-text-section h1{
     color: #ff8c00;
     font-size: 3rem;
-
+    margin: 0 0 10px 0;
 }
 
 .header-text-section h2{
     color: #ff8c00;
+    margin-bottom: 20px;
 }
 
 .header-text-section p{
@@ -37,14 +49,18 @@
 }
 
 .header-image-section{
-
+    width: 400px;
+    
 }
 
 .header-image{
-    height: 500px;
     width: auto;
-
     max-width: 100%;
+    display: block;
+    box-shadow: 5px 5px black;
+    border-radius: 100px;
+    border: 1px solid black;
+    
 }
 
 
@@ -60,9 +76,22 @@
 }
 
 /* Skill-section hover goes here */
+.skills-section:hover{
+    color: black;
+
+}
 
 .skills-card {
  /* Skill-card styling goes here!*/
+    display: flex ;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
 }
     
 .skills-title {
@@ -74,18 +103,34 @@
 
 .skills-card:hover {
     /* Skill-card hover goes here!*/
+    background-color: #ff8c00;
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* --------------------------------------------Projects------------------------------------------------------------------- */
 
 .projects-section h2 {
-    
+    margin-bottom: 25px;
 }
 
 /* Carousel styling */
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .projects {
+    width: 50%;
+    max-width: 600px;
     
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+
+    display: flex;
+    gap: 30px;
 }
 
 .project-card {
