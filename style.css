@@ -7,15 +7,14 @@
 /* ---------------------------------------------Container + Header------------------------------------------------------------------ */
 
 .container{
-    background-color: #333;
-    border-top: 10px solid #ff8c00;
+    background-color: #fdf0d5;
 }
 
 .header{
     margin: 0 auto 20px;
-    background-color: white;
+    background-color: #fdf0d5;
     height: 95vh;
-    border-bottom: 10px solid black;
+    
     
     display: flex;
     align-items: center;
@@ -24,6 +23,7 @@
 }
 
 .header-text-section{
+    background-color: white;
     padding: 30px;
     box-shadow: -10px 10px black;
     border: 1px solid black;
@@ -33,13 +33,13 @@
 
 /* use coolers website to pick colors*/
 .header-text-section h1{
-    color: #ff8c00;
+    color: #669bbc;
     font-size: 3rem;
     margin: 0 0 10px 0;
 }
 
 .header-text-section h2{
-    color: #ff8c00;
+    color: #669bbc;
     margin-bottom: 20px;
 }
 
@@ -65,12 +65,10 @@
 }
 
 
-
-
 /* ----------------------------------------Skills Section ----------------------------------------------------------------------- */
 
 .skills-section {
-    background-color: #333; /* Dark gray color */
+    background-color: #fdf0d5; /* Dark gray color */
     padding: 20px;
     margin-top: 20px;
     color: black;
@@ -96,15 +94,15 @@
 }
     
 .skills-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 5px;
-    color: white;
+    color: #669bbc;
     text-align: center;
 }
 
 .skills-card:hover {
     /* Skill-card hover goes here!*/
-    background-color: #ff8c00;
+    background-color: #003049;
     transform: scale(1.02);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -112,6 +110,7 @@
 /* --------------------------------------------Projects------------------------------------------------------------------- */
 
 .projects-section h2 {
+    color: #669bbc;
     margin-bottom: 25px;
     font-size: 2rem;
     font-weight: lighter;
@@ -216,13 +215,19 @@
 
 /* ---------------------------------------------------Experiences------------------------------------------------------------ */
 
-.experiences {
-    background-color: #333; /* Dark gray color */
+.experience-section {
+    background-color: #fdf0d5; /* Dark gray color */
     padding: 20px;
     margin-top: 20px;
 }
 
 /* experience title */
+.experience-title{
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+    color: white;
+}
     
 .experience {
     background-color: #f9f9f9;
@@ -233,20 +238,52 @@
 }
 
 /* experience hover */
+.experience:hover {
+    background-color: #ff8c00;
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 /* experience h3 */
 
+
+.experience-header h3{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
 /* experience header */
+.experience-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 /* experience p */
+.experience p{
+    color: black;
+    font-size: 1rem;
+    line-height: 1.4;
+}
 
 /* experience hover + hidden text */
 
+
+.experience:hover .hidden-text{
+    display: inline;
+}
+
+.experience:hover .ellipsis{
+    display: none;
+}
 /* experience hover + ellipsis */
 
     
 .hidden-text {
     display: none;
+    color: black;
 }
 
 .ellipsis {
