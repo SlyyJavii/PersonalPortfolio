@@ -56,6 +56,7 @@
 .header-image{
     width: auto;
     max-width: 100%;
+    object-fit: scale-down;
     display: block;
     box-shadow: 5px 5px black;
     border-radius: 100px;
@@ -112,6 +113,9 @@
 
 .projects-section h2 {
     margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
 }
 
 /* Carousel styling */
@@ -124,7 +128,7 @@
 .projects {
     width: 50%;
     max-width: 600px;
-    
+
     overflow: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -133,31 +137,78 @@
     gap: 30px;
 }
 
-.project-card {
+.projects-card {
+    max-width: 100%;
+    padding-bottom: 20px;
+    max-height:fit-content;
+
+    text-align: center;
+    border-radius: 1.5rem;
+    border-top: 6px solid black;
+
+    background-color: white;
+
+    flex: none;
    
 }
 
 .project-title {
-    
+    font-size: 1.8rem;
+    text-align: center;
+
+    color: #ff8c00;
+    text-shadow: 1px 1px black;
+
+    margin-top: 1rem;
 }
 
 .project-text {
+    color: rgba(0, 0, 0, 0.775);
+    padding: 18px;
     
 }
 
 .project-link {
     /* Add content + text decoration */
+    color: rgba(0, 0, 0, 0.829);
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #ff8c00;
+    padding: 4px 20px;
+    border-radius: 1rem;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: color 0.2s ease;
 }
 
 .project-link:hover {
-    
+    color: white;
 }
 
 .project-image {
+    width: 100%;
 
+    display: block;
+    margin: auto;
+
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    object-fit: scale-down;
 }
 
 /* back and next id selector */
+#back, #next {
+    margin: 10px;
+    color: black;
+    font-size: 2rem;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+}
 
 
 /* ---------------------------------------------------Experiences------------------------------------------------------------ */
